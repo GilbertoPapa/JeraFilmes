@@ -1,9 +1,14 @@
 package com.example.jerafilmes.data.network
 
-import com.example.jerafilmes.data.FilmeRemote
-import com.example.jerafilmes.data.ProductionCompany
-import retrofit2.http.GET
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
 
-interface FilmeApi : List<ProductionCompany> {
-    @GET("550?api_key=431a850a0fba26c71b2b2df478933b6c")
-    suspend fun getFilmes():FilmeRemote}
+object APIService {
+    var retrofit: Retrofit = Retrofit.Builder()
+        .baseUrl("https://api.themoviedb.org/")
+        .addConverterFactory(GsonConverterFactory.create())
+        .build()
+
+    const val API_KEY = "431a850a0fba26c71b2b2df478933b6c"
+    const val LANGUAGE = "pt-BR"
+}
