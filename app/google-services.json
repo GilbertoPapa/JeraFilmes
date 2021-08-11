@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "454404941149",
+    "project_id": "jerafilmes-3d02f",
+    "storage_bucket": "jerafilmes-3d02f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454404941149:android:c0035f33a2a7e97e59f4b4",
+        "android_client_info": {
+          "package_name": "com.example.jerafilmes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454404941149-uu3c8td7fea9jke5s4amkgn3p7tcgfg5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jerafilmes",
+            "certificate_hash": "06713f39d1f242c457656e9992f02d824acc4159"
+          }
+        },
+        {
+          "client_id": "454404941149-jj5blv3dlsrspt504tmhn0kcdg1vfurq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9K7V_wBTMcx5o-V2NslDA3XbqKob18tM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454404941149-jj5blv3dlsrspt504tmhn0kcdg1vfurq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

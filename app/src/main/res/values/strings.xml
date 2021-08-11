@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JeraFilmes</string>
+    <string name="user_register_email">register_email</string>
+    <string name="user_register_senha">register_senha</string>
+    <string name="user_login_entrar">login_entrar</string>
+    <string name="user_login_esqueceu_sua_senha">login_esquecersenha</string>
+    <string name="user_login_nao_cadastro">nao_cadastro</string>
+    <string name="user_login_cadastre_se_aqui">cadastre_aqui</string>
+</resources>
