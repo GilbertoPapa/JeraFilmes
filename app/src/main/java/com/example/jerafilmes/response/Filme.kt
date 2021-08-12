@@ -1,8 +1,9 @@
 package com.example.jerafilmes.response
 
+import com.example.jerafilmes.model.Filme1
 import com.google.gson.annotations.SerializedName
 
-data class FilmeListResponse (var results: ArrayList<Filme>? = null,
+data class FilmeListResponse (var results: ArrayList<Filme1>? = null,
                               var page: String? = "")
 
 data class Filme (

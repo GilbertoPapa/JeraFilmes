@@ -20,8 +20,8 @@ class DetalhaFilme : AppCompatActivity() {
       //  overview_movie.text = movie?.overview
       //  date_movie.text = movie?.releaseDate
      //  vote_movie.text = movie?.voteAverage
-        val backgroundImagePath = BASE_URL_BACK + movie?.backdropPath
-        val posterImagePath = BASE_URL_BACK + movie?.posterPath
+     //   val backgroundImagePath = BASE_URL_BACK + movie?.backdropPath
+     //   val posterImagePath = BASE_URL_BACK + movie?.posterPath
       //  Picasso.get().load(backgroundImagePath).into(backdrop_movie)
       //  Picasso.get().load(posterImagePath).into(poster_movie)
     }

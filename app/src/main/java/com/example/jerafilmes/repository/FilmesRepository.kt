@@ -1,6 +1,6 @@
 package com.example.jerafilmes.repository
 
-import com.example.jerafilmes.data.network.APIService.API_KEY
+import android.os.Build.ID
 import com.example.jerafilmes.data.network.APIService.LANGUAGE
 import com.example.jerafilmes.data.network.APIService.retrofit
 import com.example.jerafilmes.data.network.Filmeservice
@@ -10,7 +10,7 @@ class FilmesRepository {
 
     fun getMovies(): List<Filme1> {
         val moviesService = retrofit.create(Filmeservice.MoviesService::class.java)
-        val result = moviesService?.getMovies(API_KEY, LANGUAGE)?.execute()
+        val result = moviesService?.getMovies(ID, LANGUAGE)?.execute()
         val moviesList: ArrayList<Filme1> = arrayListOf()
         if (result != null && result.isSuccessful) {
             result.body()?.results?.forEach { moviesResponse ->
