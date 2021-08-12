@@ -7,6 +7,7 @@ import com.example.jerafilmes.data.network.Filmeservice
 import com.example.jerafilmes.model.Filme1
 
 class FilmesRepository {
+
     fun getMovies(): List<Filme1> {
         val moviesService = retrofit.create(Filmeservice.MoviesService::class.java)
         val result = moviesService?.getMovies(API_KEY, LANGUAGE)?.execute()
@@ -28,5 +29,4 @@ class FilmesRepository {
         }
         return moviesList
     }
-
 }

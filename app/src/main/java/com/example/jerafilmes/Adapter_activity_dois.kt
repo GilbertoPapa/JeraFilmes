@@ -31,7 +31,7 @@ class Adapter_activity_dois (private val filme1: List<Filme1>, private val conte
             Picasso.get().load(BASE_URL_IMAGE+filme1[position].posterPath).into(holder.posterPath)
         holder.title.text = filme1[position].title
         holder.moviesView.setOnClickListener{
-            val intent = Intent(context, LoginActivity ::class.java)
+            val intent = Intent(context, DetalhaFilme ::class.java)
             intent.putExtra("extra_movie",filme1[position])
             holder.moviesView.context.startActivity(intent)
         }
