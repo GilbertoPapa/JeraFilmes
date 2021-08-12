@@ -8,7 +8,7 @@ import com.squareup.picasso.Picasso
 class DetalhaFilme : AppCompatActivity() {
 
     private var movie: Filme1? = null;
-    //private lateinit var favoriteItemMenu: MenuItem;
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
